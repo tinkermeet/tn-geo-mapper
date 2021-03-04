@@ -2,11 +2,13 @@
   export let array;
   export let label;
   export let selection = [];
+  console.log({array})
+
 </script>
 
 <div class="options">
   <p>
-    {label} ({selection})
+    {label}
   </p>
   <div class="grid-check">
     {#each array as arrayItem}

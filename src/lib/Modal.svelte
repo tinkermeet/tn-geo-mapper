@@ -4,10 +4,11 @@
   let keyCode;
 
   function handleKeydown(event) {
+    event.preventDefault();
     keyCode = event.keyCode;
-  }
-  $: {
-    if (keyCode == 27) {
+
+    console.log(keyCode);
+    if (keyCode === 27) {
       shown = false;
     }
   }
@@ -15,13 +16,13 @@
 
 <svelte:window on:keydown={handleKeydown} />
 
-<div
-  class="modal"
-  class:hidden={shown == false}
-  on:click={() => (shown = false)}
->
+<div class="modal">
   <div class="modal-text">
-    <span class="close">
+    <span
+      class="close"
+      class:hidden={shown == false}
+      on:click={() => (shown = false)}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -34,22 +35,30 @@
     </span>
     <h2>Instructions</h2>
     <p>
-      Districts can be drilled down to it's Panchayats and combined to create a
-      new greater region (Polygon)
+      This tool allows you to drill down districts to individual Panchayats and
+      recombine them to create new polygons indicating new larger regions.
     </p>
     <ul>
       <li>
-        After checking a selected panchayat(s) to show on the map click "Add to
-        map"
+        Select a district from the dropdown menu. Then select one or more
+        Panchayats from the dropdown menu.
       </li>
       <li>
-        The added panchayats can be selected on the map, the selected panchayats
-        can be combined to make a new region
+        After selecting one or more panchayat(s) from the dropdown list to
+        highlight on the map, click "Add to map".
       </li>
       <li>
-        Combined layers will be copied to clipboard and can be verified using <a
-          href="http://geojson.io/">http://geojson.io/</a
-        >
+        The chosen panchayats will light up on the map as a highlighted region,
+        and must then be selected on the map.
+      </li>
+      <li>
+        On clicking "Combine", the selected panchayats will be combined to make
+        a new larger region.
+      </li>
+      <li>The combined layers will be copied to clipboard.</li>
+      <li>
+        The combination can be verified by pasting in to <a href="http://geojson.io/">http://geojson.io/</a>
+        where it will be highlighted as one unit.
       </li>
     </ul>
   </div>

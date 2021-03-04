@@ -14,7 +14,7 @@
   // map.addPolygons = () => {
 
   // };
-  that.addPolygons = function addPolygons(layers) {
+  that.addPolygons = function (layers) {
     return layers.forEach((e) => L.geoJSON(e, { onEachFeature }).addTo(map));
   };
 
@@ -42,11 +42,19 @@
     $selectedFeatures = [];
   }
 
+  that.removeAllLayers = function () {
+    map.eachLayer(function (layer) {
+      if(!layer._container)
+      map.removeLayer(layer);
+    });
+  };
+
   function onEachFeature(feature, layer) {
     layer.on("click", (e) => {
+      console.log(e.target._leaflet_id);
+
       layer.isSelected = true;
       layer.setStyle({ fillColor: "yellow", opacity: 1, width: 3 });
-      console.log(e.target._leaflet_id);
 
       if ($selectedIds.includes(e.target._leaflet_id)) {
         console.log({ selectedIds: $selectedIds });
@@ -61,6 +69,16 @@
           feature.geometry ? feature.geometry : feature,
         ];
       }
+    });
+    layer.on("add", (e) => {
+      console.log(e);
+      $selectedIds = [...$selectedIds, e.target._leaflet_id];
+      $selectedFeatures = [
+        ...$selectedFeatures,
+        e.target.feature.geometry
+          ? e.target.feature.geometry
+          : e.target.feature,
+      ];
     });
   }
 
@@ -119,7 +137,6 @@
 
     isCombined = true;
     navigator.clipboard.writeText(JSON.stringify($union));
-
   };
   // function findDifference(polygons) {}
   // function findIntersection(polygons) {}
@@ -167,12 +184,13 @@
         fetch("https://bhuvan-panchayat3.nrsc.gov.in/graphql", requestOptions)
           .then((response) => response.json())
           .then((result) => {
-            addLayer(
-              JSON.parse(result.data.geomvaluesbp.geojson),
-              JSON.parse(result.data.geomvaluesbp.centroid),
-              type,
-              value
-            );
+            that.addPolygons([JSON.parse(result.data.geomvaluesbp.geojson)]);
+            // addLayer(
+            //   JSON.parse(result.data.geomvaluesbp.geojson),
+            //   JSON.parse(result.data.geomvaluesbp.centroid),
+            //   type,
+            //   value
+            // );
           })
           .catch((error) => console.log("error", error));
       });
@@ -180,12 +198,14 @@
       fetch("https://bhuvan-panchayat3.nrsc.gov.in/graphql", requestOptions)
         .then((response) => response.json())
         .then((result) => {
-          addLayer(
-            JSON.parse(result.data.geomvaluesbp.geojson),
-            JSON.parse(result.data.geomvaluesbp.centroid),
-            type,
-            [value]
-          );
+          that.addPolygons([JSON.parse(result.data.geomvaluesbp.geojson)]);
+
+          // addLayer(
+          //   JSON.parse(result.data.geomvaluesbp.geojson),
+          //   JSON.parse(result.data.geomvaluesbp.centroid),
+          //   type,
+          //   [value]
+          // );
         })
         .catch((error) => console.log("error", error));
     }

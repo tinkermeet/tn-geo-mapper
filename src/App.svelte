@@ -14,6 +14,7 @@
     doubleClickZoom: false,
     tileLayer:
       "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+    attributionControl: false,
   };
 
   let districts = [];
@@ -50,6 +51,7 @@
   let panchayatSelection = [];
 
   function querySelectedDistrict(selectedDistrict) {
+    blockSelection = 0;
     filteredBlocks = blocks.filter((e) => {
       return e.dtcode == selectedDistrict;
     });
@@ -85,9 +87,13 @@
             $selectedIds = [];
             $selectedFeatures = [];
             $union = [];
+            districtSelection = 0
+            blockSelection = 0
+            panchayatSelection = []
+            map.removeAllLayers()
           }}
         >
-          Reset selections
+          Reset map
         </button>
         <button class="" on:click={() => (showModal = true)}>
           Show instructions
@@ -123,15 +129,6 @@
 
       <div class="options">
         {#if blockSelection}
-          <button
-            disabled={panchayatSelection.length == 0}
-            on:click={map.getGeoJson({
-              value: panchayatSelection,
-              tablename: "bp.panchayat",
-              condition: "gpcode",
-              type: "panchayat",
-            })}>Add to map</button
-          >
           {#if panchayatSelection.length > 0}
             <button
               disabled={panchayatSelection.length == 0}
