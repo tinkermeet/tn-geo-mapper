@@ -1,0 +1,2338 @@
+{
+  "blocks": [
+    {
+      "code": 6296,
+      "name": "Mecheri",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6164,
+      "name": "Kodumudi",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6165,
+      "name": "Kundadam",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6166,
+      "name": "Modakkuruychi",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6167,
+      "name": "Mulanur",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6168,
+      "name": "Nambiyur",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6169,
+      "name": "Perundurai",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6170,
+      "name": "Sathiyamangalam",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6171,
+      "name": "Talavadi",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6172,
+      "name": "T.N.Palayam",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6173,
+      "name": "Uthukuli",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6174,
+      "name": "Vellakoil",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6175,
+      "name": "Archarapakkam",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6176,
+      "name": "Chitamur",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6177,
+      "name": "Kancheepuram",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6178,
+      "name": "Kattankolathur",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6179,
+      "name": "Kundrathur",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6180,
+      "name": "Lathur",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6181,
+      "name": "Maduranthakam",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6182,
+      "name": "Sriperumbudhur",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6183,
+      "name": "St_Thomaus_Mt",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6184,
+      "name": "Thiruporur",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6185,
+      "name": "Thirukalukundrum",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6186,
+      "name": "Uthiramerur",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6187,
+      "name": "Walajabad",
+      "dtname": "Kancheepuram",
+      "dtcode": 604
+    },
+    {
+      "code": 6188,
+      "name": "Agastheeswaram",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6189,
+      "name": "Killiyoor",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6190,
+      "name": "Kurunthancode",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6191,
+      "name": "Melpuram",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6288,
+      "name": "Attur",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6338,
+      "name": "Andipatti",
+      "dtname": "Theni",
+      "dtcode": 624
+    },
+    {
+      "code": 6402,
+      "name": "Vasudevanallur",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6403,
+      "name": "Anakavur",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6404,
+      "name": "Arani",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6405,
+      "name": "Chengam",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6406,
+      "name": "Chetpet",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6407,
+      "name": "Cheyyar",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6408,
+      "name": "Jawadhu_Hills",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6409,
+      "name": "Kalasapakkam",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6410,
+      "name": "Keelpennathur",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6411,
+      "name": "Pernamallur",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6412,
+      "name": "Polur",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6413,
+      "name": "Pudupalayam",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6414,
+      "name": "Thandrampet",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6415,
+      "name": "Thellar",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6416,
+      "name": "Thurijapuram",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6417,
+      "name": "Tiruvannamalai",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6418,
+      "name": "Vandavasi",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6419,
+      "name": "Vembakkam",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6420,
+      "name": "West Arani",
+      "dtname": "Tiruvannamalai",
+      "dtcode": 606
+    },
+    {
+      "code": 6421,
+      "name": "Alwarthirunagari",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6422,
+      "name": "Karungulam",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6423,
+      "name": "Kayathar",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6424,
+      "name": "Kovilpatti",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6425,
+      "name": "Ottapidaram",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6426,
+      "name": "Pudur",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6427,
+      "name": "Sattankulam",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6428,
+      "name": "Srivaikundam",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6429,
+      "name": "Thoothukudi",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 10001,
+      "name": "Madurai_Corparation",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6205,
+      "name": "Bargur",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 10002,
+      "name": "Tirunelveli Corporation",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 10003,
+      "name": "Coimbatore_Corporation",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 10004,
+      "name": "Chennai_Dist",
+      "dtname": "Chennai",
+      "dtcode": 603
+    },
+    {
+      "code": 6101,
+      "name": "Anaimalai",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6102,
+      "name": "Annur",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6103,
+      "name": "Avinashi",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6104,
+      "name": "Gudimangalam",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6105,
+      "name": "Karamadai",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6106,
+      "name": "Kinathukadavu",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6107,
+      "name": "Madathukulam",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6108,
+      "name": "Madukkarai",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6109,
+      "name": "Palladam",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6110,
+      "name": "Periyanayakkanpalayam",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6111,
+      "name": "Pollachi_North",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6112,
+      "name": "Pollachi_South",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6113,
+      "name": "Pongalur",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6114,
+      "name": "Sarcarsamakulam",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6115,
+      "name": "Sultanpet",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6116,
+      "name": "Sulur",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6117,
+      "name": "Thondamuthur",
+      "dtname": "Coimbatore",
+      "dtcode": 632
+    },
+    {
+      "code": 6118,
+      "name": "Tiruppur",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6119,
+      "name": "Udumalpet",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6120,
+      "name": "Annagramam",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6121,
+      "name": "Cuddalore",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6122,
+      "name": "Kammapuram",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6123,
+      "name": "Kattumannar Koil",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6124,
+      "name": "Keerapalayam",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6125,
+      "name": "Kumaratchi",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6126,
+      "name": "Kurinjipadi",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6127,
+      "name": "Mangalur",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6128,
+      "name": "Melbhuvanagiri",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6129,
+      "name": "Nallur",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6130,
+      "name": "Panruti",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6131,
+      "name": "Parangipettai",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6132,
+      "name": "Vridhachalam",
+      "dtname": "Cuddalore",
+      "dtcode": 617
+    },
+    {
+      "code": 6133,
+      "name": "Dharmapuri",
+      "dtname": "Dharmapuri",
+      "dtcode": 630
+    },
+    {
+      "code": 6134,
+      "name": "Harur",
+      "dtname": "Dharmapuri",
+      "dtcode": 630
+    },
+    {
+      "code": 6135,
+      "name": "Karimangalam",
+      "dtname": "Dharmapuri",
+      "dtcode": 630
+    },
+    {
+      "code": 6136,
+      "name": "Morappur",
+      "dtname": "Dharmapuri",
+      "dtcode": 630
+    },
+    {
+      "code": 6137,
+      "name": "Nallampalli",
+      "dtname": "Dharmapuri",
+      "dtcode": 630
+    },
+    {
+      "code": 6138,
+      "name": "Palakcode",
+      "dtname": "Dharmapuri",
+      "dtcode": 630
+    },
+    {
+      "code": 6139,
+      "name": "Pappireddipatti",
+      "dtname": "Dharmapuri",
+      "dtcode": 630
+    },
+    {
+      "code": 6140,
+      "name": "Pennagaram",
+      "dtname": "Dharmapuri",
+      "dtcode": 630
+    },
+    {
+      "code": 6141,
+      "name": "Athoor",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6142,
+      "name": "Dindigul",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6143,
+      "name": "Guziliamparai",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6144,
+      "name": "Kodaikanal",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6145,
+      "name": "Natham",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6146,
+      "name": "Nilakkottai",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6147,
+      "name": "Oddanchatram",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6148,
+      "name": "Palani",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6149,
+      "name": "Reddiarchatram",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6150,
+      "name": "Shanarpatti",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6151,
+      "name": "Thoppamapatti",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6152,
+      "name": "Vadamadurai",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6153,
+      "name": "Batlagundu",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6154,
+      "name": "Vedasandur",
+      "dtname": "Dindigul",
+      "dtcode": 612
+    },
+    {
+      "code": 6155,
+      "name": "Ammapet",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6156,
+      "name": "Anthiyur",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6157,
+      "name": "Bhavani",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6158,
+      "name": "Bhavanisagar",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6159,
+      "name": "Chennimalai",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6160,
+      "name": "Dharapuram",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6161,
+      "name": "Erode",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6162,
+      "name": "Gobichettipalayam",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6163,
+      "name": "Kangayam",
+      "dtname": "Tiruppur",
+      "dtcode": 633
+    },
+    {
+      "code": 6204,
+      "name": "Thogamalai",
+      "dtname": "Karur",
+      "dtcode": 613
+    },
+    {
+      "code": 6206,
+      "name": "Hosur",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6207,
+      "name": "Kaveripattanam",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6208,
+      "name": "Kelamangalam",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6209,
+      "name": "Krishnagiri",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6210,
+      "name": "Mathur",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6211,
+      "name": "Soolagiri",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6212,
+      "name": "Thally",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6213,
+      "name": "Uthangarai",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6214,
+      "name": "Veppanapalli",
+      "dtname": "Krishnagiri",
+      "dtcode": 631
+    },
+    {
+      "code": 6215,
+      "name": "Alanganallur",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6216,
+      "name": "Chellampatti",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6217,
+      "name": "Kallikudi",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6218,
+      "name": "Kottampatti",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6219,
+      "name": "Madurai East",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6220,
+      "name": "Madurai West",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6221,
+      "name": "Melur",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6222,
+      "name": "Sedapatti",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6223,
+      "name": "T.Kallupatty",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6224,
+      "name": "Thirumangalam",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6225,
+      "name": "Thirupparankundram",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6226,
+      "name": "Usilampatti",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6227,
+      "name": "Vadipatti",
+      "dtname": "Madurai",
+      "dtcode": 623
+    },
+    {
+      "code": 6228,
+      "name": "Keelaiyur",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6229,
+      "name": "Kilvelur",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6230,
+      "name": "Kollidam",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6231,
+      "name": "Kuthalam",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6232,
+      "name": "Mayiladuthurai",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6233,
+      "name": "Nagapattinam",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6234,
+      "name": "Sembanarkoil",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6235,
+      "name": "Sirkali",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6236,
+      "name": "Thalainayar",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6237,
+      "name": "Thirumarugal",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6238,
+      "name": "Vedaranyam",
+      "dtname": "Nagapattinam",
+      "dtcode": 618
+    },
+    {
+      "code": 6239,
+      "name": "Elachipalayam",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6240,
+      "name": "Erumapatty",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6241,
+      "name": "Kabilarmalai",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6242,
+      "name": "Kollihills",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6243,
+      "name": "Mallasampuram",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6244,
+      "name": "Mohanur",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6245,
+      "name": "Namagiripettai",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6246,
+      "name": "Namakkal",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6247,
+      "name": "Pallipalayam",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6248,
+      "name": "Paramathy",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6249,
+      "name": "Puduchathiram",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6250,
+      "name": "Rasipuram",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6251,
+      "name": "Sendamangalam",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6252,
+      "name": "Thiruchengode",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6253,
+      "name": "Vennandur",
+      "dtname": "Namakkal",
+      "dtcode": 609
+    },
+    {
+      "code": 6254,
+      "name": "Alathur",
+      "dtname": "Perambalur",
+      "dtcode": 615
+    },
+    {
+      "code": 6255,
+      "name": "Andimadam",
+      "dtname": "Ariyalur",
+      "dtcode": 616
+    },
+    {
+      "code": 6256,
+      "name": "Ariyalur",
+      "dtname": "Ariyalur",
+      "dtcode": 616
+    },
+    {
+      "code": 6257,
+      "name": "Jeyamkondam",
+      "dtname": "Ariyalur",
+      "dtcode": 616
+    },
+    {
+      "code": 6258,
+      "name": "Perambalur",
+      "dtname": "Perambalur",
+      "dtcode": 615
+    },
+    {
+      "code": 6259,
+      "name": "Sendurai",
+      "dtname": "Ariyalur",
+      "dtcode": 616
+    },
+    {
+      "code": 6260,
+      "name": "T Palur",
+      "dtname": "Ariyalur",
+      "dtcode": 616
+    },
+    {
+      "code": 6261,
+      "name": "Thirumanur",
+      "dtname": "Ariyalur",
+      "dtcode": 616
+    },
+    {
+      "code": 6262,
+      "name": "Veppanthattai",
+      "dtname": "Perambalur",
+      "dtcode": 615
+    },
+    {
+      "code": 6263,
+      "name": "Veppur",
+      "dtname": "Perambalur",
+      "dtcode": 615
+    },
+    {
+      "code": 6264,
+      "name": "Annavasal",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6265,
+      "name": "Aranthangi",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6266,
+      "name": "Arimalam",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6267,
+      "name": "Avudaiyarkoil",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6268,
+      "name": "Gandarvakottai",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6269,
+      "name": "Karambakkudi",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6270,
+      "name": "Kunnandarkovil",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6271,
+      "name": "Mamelkudi",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6272,
+      "name": "Ponnamaravathi",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6273,
+      "name": "Pudukkottai",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6274,
+      "name": "Thiruvarankulam",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6275,
+      "name": "Thirumayam",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6276,
+      "name": "Viralimalai",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6277,
+      "name": "Bogalur",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6278,
+      "name": "Kadaladi",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6279,
+      "name": "Kamuthi",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6280,
+      "name": "Mandapam",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6281,
+      "name": "Mudukulathur",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6282,
+      "name": "Nainarkoil",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6283,
+      "name": "Paramakudi",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6284,
+      "name": "R.S. Mangalam",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6285,
+      "name": "Ramanathapuram",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6286,
+      "name": "Thiruppullani",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6287,
+      "name": "Thiruvadanai",
+      "dtname": "Ramanathapuram",
+      "dtcode": 626
+    },
+    {
+      "code": 6289,
+      "name": "Ayothiyapattinam",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6290,
+      "name": "Gangavalli",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6291,
+      "name": "Idapadi",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6292,
+      "name": "Kadayaampatti",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6293,
+      "name": "Kolathur",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6294,
+      "name": "Konganapuram",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6295,
+      "name": "Mac Donald Choultry",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6297,
+      "name": "Nangavalli",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6298,
+      "name": "Omalur",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6299,
+      "name": "Panamarathupatti",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6300,
+      "name": "Peddanaickenpalayam",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6301,
+      "name": "Salem",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6302,
+      "name": "Sangagiri",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6303,
+      "name": "Thalaivasal",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6192,
+      "name": "Munchirai",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6193,
+      "name": "Rajakkamangalam",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6194,
+      "name": "Thuckalay",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6195,
+      "name": "Thiruvattar",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6196,
+      "name": "Thovalai",
+      "dtname": "Kanniyakumari",
+      "dtcode": 629
+    },
+    {
+      "code": 6197,
+      "name": "Aravakurichi",
+      "dtname": "Karur",
+      "dtcode": 613
+    },
+    {
+      "code": 6198,
+      "name": "K. Paramathi",
+      "dtname": "Karur",
+      "dtcode": 613
+    },
+    {
+      "code": 6199,
+      "name": "Kadavur",
+      "dtname": "Karur",
+      "dtcode": 613
+    },
+    {
+      "code": 6200,
+      "name": "Karur",
+      "dtname": "Karur",
+      "dtcode": 613
+    },
+    {
+      "code": 6201,
+      "name": "Krishnarayapuram",
+      "dtname": "Karur",
+      "dtcode": 613
+    },
+    {
+      "code": 6202,
+      "name": "Kulithalai",
+      "dtname": "Karur",
+      "dtcode": 613
+    },
+    {
+      "code": 6203,
+      "name": "Thanthoni",
+      "dtname": "Karur",
+      "dtcode": 613
+    },
+    {
+      "code": 6304,
+      "name": "Tharamangalam",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6305,
+      "name": "Valapady",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6306,
+      "name": "Veerapandy",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6307,
+      "name": "Yercaud",
+      "dtname": "Salem",
+      "dtcode": 608
+    },
+    {
+      "code": 6308,
+      "name": "Devakottai",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6309,
+      "name": "Ilayangudi",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6310,
+      "name": "Kalaiyarkovil",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6311,
+      "name": "Kallal",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6312,
+      "name": "Kannangudi",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6313,
+      "name": "Manamadurai",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6314,
+      "name": "S.Pudur",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6315,
+      "name": "Sakkottai",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6316,
+      "name": "Singampunari",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6317,
+      "name": "Sivagangai",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6318,
+      "name": "Thiruppathur",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6319,
+      "name": "Thiruppuvanam",
+      "dtname": "Sivaganga",
+      "dtcode": 622
+    },
+    {
+      "code": 6320,
+      "name": "Ammapettai",
+      "dtname": "Erode",
+      "dtcode": 610
+    },
+    {
+      "code": 6321,
+      "name": "Budalur",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6322,
+      "name": "Kumbakonam",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6323,
+      "name": "Madukkur",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6324,
+      "name": "Orathanadu",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6325,
+      "name": "Papanasam",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6326,
+      "name": "Pattukkottai",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6327,
+      "name": "Peravurani",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6328,
+      "name": "Sethubavachatram",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6329,
+      "name": "Thanjavur",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6330,
+      "name": "Thiruppanandal",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6331,
+      "name": "Thiruvaiyaru",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6332,
+      "name": "Thiruvonam",
+      "dtname": "Pudukottai",
+      "dtcode": 621
+    },
+    {
+      "code": 6333,
+      "name": "Thiruvidaimarudur",
+      "dtname": "Thanjavur",
+      "dtcode": 620
+    },
+    {
+      "code": 6334,
+      "name": "Coonoor",
+      "dtname": "The Nilgiris",
+      "dtcode": 611
+    },
+    {
+      "code": 6335,
+      "name": "Gudalur",
+      "dtname": "The Nilgiris",
+      "dtcode": 611
+    },
+    {
+      "code": 6336,
+      "name": "Kothagiri",
+      "dtname": "The Nilgiris",
+      "dtcode": 611
+    },
+    {
+      "code": 6337,
+      "name": "Udhagamandalam",
+      "dtname": "The Nilgiris",
+      "dtcode": 611
+    },
+    {
+      "code": 6339,
+      "name": "Bodinaickanur",
+      "dtname": "Theni",
+      "dtcode": 624
+    },
+    {
+      "code": 6340,
+      "name": "Chinnamanur",
+      "dtname": "Theni",
+      "dtcode": 624
+    },
+    {
+      "code": 6341,
+      "name": "Kadamalaikundru",
+      "dtname": "Theni",
+      "dtcode": 624
+    },
+    {
+      "code": 6342,
+      "name": "Cumbum",
+      "dtname": "Theni",
+      "dtcode": 624
+    },
+    {
+      "code": 6343,
+      "name": "Periyakulam",
+      "dtname": "Theni",
+      "dtcode": 624
+    },
+    {
+      "code": 6344,
+      "name": "Theni",
+      "dtname": "Theni",
+      "dtcode": 624
+    },
+    {
+      "code": 6345,
+      "name": "Uthampalayam",
+      "dtname": "Theni",
+      "dtcode": 624
+    },
+    {
+      "code": 6346,
+      "name": "Ellapuram",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6347,
+      "name": "Gummidipoondi",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6348,
+      "name": "Kadambathur",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6349,
+      "name": "Minjur",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6350,
+      "name": "Pallipattu",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6351,
+      "name": "Poonamalle",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6352,
+      "name": "Poondi",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6353,
+      "name": "Puzhal",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6354,
+      "name": "R.K.Pet",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6355,
+      "name": "Sholavaram",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6356,
+      "name": "Tirttani",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6357,
+      "name": "Tiruvallur",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6358,
+      "name": "Thiruvalangadu",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6359,
+      "name": "Villivakkam",
+      "dtname": "Thiruvallur",
+      "dtcode": 602
+    },
+    {
+      "code": 6360,
+      "name": "Kudavaasal",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6361,
+      "name": "Koradacheri",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6362,
+      "name": "Kottur",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6363,
+      "name": "Mannargudi",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6364,
+      "name": "Muthupettai",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6365,
+      "name": "Nannilam",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6366,
+      "name": "Needamangalam",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6367,
+      "name": "Thiruvarur",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6368,
+      "name": "Thiruthuraipoondi",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6369,
+      "name": "Valangaiman",
+      "dtname": "Thiruvarur",
+      "dtcode": 619
+    },
+    {
+      "code": 6370,
+      "name": "Andanallur",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6371,
+      "name": "Lalgudi",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6372,
+      "name": "Manachanallur",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6373,
+      "name": "Manaparai",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6374,
+      "name": "Manikandam",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6375,
+      "name": "Marungapuri",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6376,
+      "name": "Musiri",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6377,
+      "name": "Pullampadi",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6378,
+      "name": "Thathaiyangarpet",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6379,
+      "name": "Thiruverumpur",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6380,
+      "name": "Thottiyam",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6381,
+      "name": "Thuraiyur",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6382,
+      "name": "Uppiliyapuram",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6383,
+      "name": "Vaiyampatti",
+      "dtname": "Tiruchirapalli",
+      "dtcode": 614
+    },
+    {
+      "code": 6384,
+      "name": "Alankulam",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6385,
+      "name": "Ambasamudram",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6386,
+      "name": "Cheranmahadevi",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6387,
+      "name": "Kadayanallur",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6388,
+      "name": "Kadayam",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6389,
+      "name": "Kalakadu",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6390,
+      "name": "Keelapavoor",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6391,
+      "name": "Kuruvikulam",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6392,
+      "name": "Manur",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6393,
+      "name": "Melaneelithanallur",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6394,
+      "name": "Nanguneri",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6395,
+      "name": "Palayamkottai",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6396,
+      "name": "Pappakudi",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6397,
+      "name": "Radhapuram",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6398,
+      "name": "Sankarankoil",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6399,
+      "name": "Shencottai",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6400,
+      "name": "Tenkasi",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6401,
+      "name": "Valliyoor",
+      "dtname": "Tirunelveli",
+      "dtcode": 628
+    },
+    {
+      "code": 6440,
+      "name": "Kandhili",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6441,
+      "name": "Kaniyampadi",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6442,
+      "name": "Katpadi",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6443,
+      "name": "Kaveripakkam",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6444,
+      "name": "Madhanur",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6445,
+      "name": "Natrampalli",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6446,
+      "name": "Nemili",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6447,
+      "name": "Peranambut",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6448,
+      "name": "Sholingar",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6449,
+      "name": "Timiri",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6450,
+      "name": "Tirupatur",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6451,
+      "name": "Vellore",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6452,
+      "name": "Walajah",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6453,
+      "name": "Chinnasalem",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6454,
+      "name": "Gingee",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6455,
+      "name": "Kallakurichi",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6456,
+      "name": "Kalvarayan",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6457,
+      "name": "Kanai",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6458,
+      "name": "Kandamangalam",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6459,
+      "name": "Kolianur",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6460,
+      "name": "Mailam",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6461,
+      "name": "Marakkanam",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6462,
+      "name": "Malaiyanur",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6463,
+      "name": "Mugaiyur",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6464,
+      "name": "Olakkur",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6465,
+      "name": "Rishivandiyam",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6466,
+      "name": "Sangarapuram",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6467,
+      "name": "Thiagathuruvam",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6468,
+      "name": "Tiruvennainallur",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6469,
+      "name": "Tirukovilur",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6470,
+      "name": "Tirunavallur",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6471,
+      "name": "Ulundurpet",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6472,
+      "name": "Vallam",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6473,
+      "name": "Vanur",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6474,
+      "name": "Vikkiravandi",
+      "dtname": "Villupuram",
+      "dtcode": 607
+    },
+    {
+      "code": 6475,
+      "name": "Aruppukottai",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6476,
+      "name": "Kariapatti",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6477,
+      "name": "Narikudi",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6478,
+      "name": "Rajapalayam",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6479,
+      "name": "Sattur",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6480,
+      "name": "Sivakasi",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6481,
+      "name": "Srivilliputhur",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6482,
+      "name": "Tiruchuli",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6483,
+      "name": "Vembakottai",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6484,
+      "name": "Virudhunagar",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6485,
+      "name": "Watrap",
+      "dtname": "Virudhunagar",
+      "dtcode": 625
+    },
+    {
+      "code": 6430,
+      "name": "Tiruchendur",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6431,
+      "name": "Udangudi",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6432,
+      "name": "Vilathikulam",
+      "dtname": "Thoothukkudi",
+      "dtcode": 627
+    },
+    {
+      "code": 6433,
+      "name": "Alangayam",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6434,
+      "name": "Anaikattu",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6435,
+      "name": "Arakonam",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6436,
+      "name": "Arcot",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6437,
+      "name": "Gudiyatham",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6438,
+      "name": "Jolarpet",
+      "dtname": "Vellore",
+      "dtcode": 605
+    },
+    {
+      "code": 6439,
+      "name": "K.V.Kuppam",
+      "dtname": "Vellore",
+      "dtcode": 605
+    }
+  ]
+}

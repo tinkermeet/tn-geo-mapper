@@ -1,0 +1,164 @@
+{
+  "districts": [
+    {
+      "code": 602,
+      "name": "Thiruvallur",
+      "stcode": 33
+    },
+    {
+      "code": 603,
+      "name": "Chennai",
+      "stcode": 33
+    },
+    {
+      "code": 604,
+      "name": "Kancheepuram",
+      "stcode": 33
+    },
+    {
+      "code": 605,
+      "name": "Vellore",
+      "stcode": 33
+    },
+    {
+      "code": 606,
+      "name": "Tiruvannamalai",
+      "stcode": 33
+    },
+    {
+      "code": 607,
+      "name": "Villupuram",
+      "stcode": 33
+    },
+    {
+      "code": 608,
+      "name": "Salem",
+      "stcode": 33
+    },
+    {
+      "code": 609,
+      "name": "Namakkal",
+      "stcode": 33
+    },
+    {
+      "code": 610,
+      "name": "Erode",
+      "stcode": 33
+    },
+    {
+      "code": 611,
+      "name": "The nilgiris",
+      "stcode": 33
+    },
+    {
+      "code": 612,
+      "name": "Dindigul",
+      "stcode": 33
+    },
+    {
+      "code": 613,
+      "name": "Karur",
+      "stcode": 33
+    },
+    {
+      "code": 614,
+      "name": "Tiruchirapalli",
+      "stcode": 33
+    },
+    {
+      "code": 615,
+      "name": "Perambalur",
+      "stcode": 33
+    },
+    {
+      "code": 616,
+      "name": "Ariyalur",
+      "stcode": 33
+    },
+    {
+      "code": 617,
+      "name": "Cuddalore",
+      "stcode": 33
+    },
+    {
+      "code": 618,
+      "name": "Nagapattinam",
+      "stcode": 33
+    },
+    {
+      "code": 619,
+      "name": "Thiruvarur",
+      "stcode": 33
+    },
+    {
+      "code": 620,
+      "name": "Thanjavur",
+      "stcode": 33
+    },
+    {
+      "code": 621,
+      "name": "Pudukottai",
+      "stcode": 33
+    },
+    {
+      "code": 622,
+      "name": "Sivaganga",
+      "stcode": 33
+    },
+    {
+      "code": 623,
+      "name": "Madurai",
+      "stcode": 33
+    },
+    {
+      "code": 624,
+      "name": "Theni",
+      "stcode": 33
+    },
+    {
+      "code": 625,
+      "name": "Virudhunagar",
+      "stcode": 33
+    },
+    {
+      "code": 626,
+      "name": "Ramanathapuram",
+      "stcode": 33
+    },
+    {
+      "code": 627,
+      "name": "Thoothukkudi",
+      "stcode": 33
+    },
+    {
+      "code": 628,
+      "name": "Tirunelveli",
+      "stcode": 33
+    },
+    {
+      "code": 629,
+      "name": "Kanniyakumari",
+      "stcode": 33
+    },
+    {
+      "code": 630,
+      "name": "Dharmapuri",
+      "stcode": 33
+    },
+    {
+      "code": 631,
+      "name": "Krishnagiri",
+      "stcode": 33
+    },
+    {
+      "code": 632,
+      "name": "Coimbatore",
+      "stcode": 33
+    },
+    {
+      "code": 633,
+      "name": "Tiruppur",
+      "stcode": 33
+    }
+  ]
+}
