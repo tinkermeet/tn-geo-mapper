@@ -4,6 +4,7 @@
   import Checkbox from "./lib/Checkbox.svelte";
   import { selectedFeatures, selectedIds, union } from "./lib/stores";
   import Modal from "./lib/Modal.svelte";
+  import Toast from "./lib/Toast.svelte";
 
   let map;
 
@@ -76,6 +77,9 @@
 {#if showModal == true}
   <Modal bind:shown={showModal} />
 {/if}
+{#if $union.length != 0}
+  <Toast />
+{/if}
 <main>
   <div class="d-grid">
     <Map bind:this={map} {options} />
@@ -87,10 +91,10 @@
             $selectedIds = [];
             $selectedFeatures = [];
             $union = [];
-            districtSelection = 0
-            blockSelection = 0
-            panchayatSelection = []
-            map.removeAllLayers()
+            districtSelection = 0;
+            blockSelection = 0;
+            panchayatSelection = [];
+            map.removeAllLayers();
           }}
         >
           Reset map
