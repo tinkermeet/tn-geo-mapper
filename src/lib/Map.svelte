@@ -6,6 +6,10 @@
   import "leaflet/dist/leaflet.css";
   import { selectedFeatures, selectedIds, union } from "./stores";
 
+  import { writable } from "svelte/store";
+
+  export const foo = writable(["1", "2", "3"]);
+
   export let options;
   let map = null; // leaflet map
   let node; // container DOM node
@@ -14,6 +18,9 @@
   // map.addPolygons = () => {
 
   // };
+
+  let content = L.DomUtil.create("div", "content");
+
   that.addPolygons = function (layers) {
     return layers.forEach((e) => L.geoJSON(e, { onEachFeature }).addTo(map));
   };
@@ -24,13 +31,14 @@
     });
   };
 
-  that.removePolygons = function (layerid) {
+  function removePolygons(layerid) {
     map.eachLayer(function (layer) {
+      console.log({ layer });
       if (layer._leaflet_id == layerid && layer["isSelected"]) {
         map.removeLayer(layer);
       }
     });
-  };
+  }
 
   function removeLayers() {
     map.eachLayer(function (layer) {
@@ -44,8 +52,7 @@
 
   that.removeAllLayers = function () {
     map.eachLayer(function (layer) {
-      if(!layer._container)
-      map.removeLayer(layer);
+      if (!layer._container) map.removeLayer(layer);
     });
   };
 
@@ -120,6 +127,7 @@
       style: { fillColor: "red" },
       onEachFeature,
     })
+
       .eachLayer((layer) => {
         layer.setStyle({
           fillColor: "lime",
@@ -127,11 +135,30 @@
           opacity: 1,
           width: 1,
         });
-        layer.bindPopup(`Combined Layer`, {
-          direction: "top",
-          sticky: "true",
-        });
+        layer
+          .bindPopup(
+            `
+            <p>New Layer ${layer._leaflet_id}</p>
+            <hr>
+            <button class="delete-btn">Delete layer</button>
+            `,
+            {
+              direction: "top",
+              sticky: "true",
+            }
+          )
+          .on("popupopen", function (e) {
+            let origin = e.target._leaflet_id;
+
+            document
+              .querySelector(".delete-btn")
+              .addEventListener("click", (e) => {
+                console.log({ origin });
+                removePolygons(origin);
+              });
+          });
       })
+
       .addTo(map);
     removeLayers();
 
@@ -162,53 +189,20 @@
       headers: myHeaders,
       body: graphql,
     };
-    if (typeof value === "object") {
-      // console.log(value);
-      value.forEach((element) => {
-        let variables = {
-          value: element,
-          stcode: 33,
-          condition: condition,
-          tablename: tablename,
-        };
-        var graphql = JSON.stringify({
-          query,
-          variables,
-        });
-        var requestOptions = {
-          method: "POST",
-          headers: myHeaders,
-          body: graphql,
-        };
 
-        fetch("https://bhuvan-panchayat3.nrsc.gov.in/graphql", requestOptions)
-          .then((response) => response.json())
-          .then((result) => {
-            that.addPolygons([JSON.parse(result.data.geomvaluesbp.geojson)]);
-            // addLayer(
-            //   JSON.parse(result.data.geomvaluesbp.geojson),
-            //   JSON.parse(result.data.geomvaluesbp.centroid),
-            //   type,
-            //   value
-            // );
-          })
-          .catch((error) => console.log("error", error));
-      });
-    } else {
-      fetch("https://bhuvan-panchayat3.nrsc.gov.in/graphql", requestOptions)
-        .then((response) => response.json())
-        .then((result) => {
-          that.addPolygons([JSON.parse(result.data.geomvaluesbp.geojson)]);
+    fetch("https://bhuvan-panchayat3.nrsc.gov.in/graphql", requestOptions)
+      .then((response) => response.json())
+      .then((result) => {
+        that.addPolygons([JSON.parse(result.data.geomvaluesbp.geojson)]);
 
-          // addLayer(
-          //   JSON.parse(result.data.geomvaluesbp.geojson),
-          //   JSON.parse(result.data.geomvaluesbp.centroid),
-          //   type,
-          //   [value]
-          // );
-        })
-        .catch((error) => console.log("error", error));
-    }
+        // addLayer(
+        //   JSON.parse(result.data.geomvaluesbp.geojson),
+        //   JSON.parse(result.data.geomvaluesbp.centroid),
+        //   type,
+        //   [value]
+        // );
+      })
+      .catch((error) => console.log("error", error));
   };
   function addLayer(layer, centroid, type, value) {
     L.geoJSON(layer, { onEachFeature })

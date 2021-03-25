@@ -40,16 +40,10 @@
     </p>
     <ul>
       <li>
-        Select a district from the dropdown menu. Then select one or more
-        Panchayats from the dropdown menu.
+        Select a district from the dropdown menu. Then select a block from the blocks dropdown menu and choose one or more panchayats.
       </li>
       <li>
-        After selecting one or more panchayat(s) from the dropdown list to
-        highlight on the map, click "Add to map".
-      </li>
-      <li>
-        The chosen panchayats will light up on the map as a highlighted region,
-        and must then be selected on the map.
+        The chosen panchayats will be plotted on the map.
       </li>
       <li>
         On clicking "Combine", the selected panchayats will be combined to make
@@ -59,6 +53,9 @@
       <li>
         The combination can be verified by pasting in to <a href="http://geojson.io/">http://geojson.io/</a>
         where it will be highlighted as one unit.
+      </li>
+      <li>
+        The state of the map and the selections can be reset using "Reset Map".
       </li>
     </ul>
   </div>

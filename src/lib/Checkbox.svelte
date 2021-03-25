@@ -2,8 +2,8 @@
   export let array;
   export let label;
   export let selection = [];
-  console.log({array})
-
+  console.log({ array });
+  import { panchayatSelection } from "./stores";
 </script>
 
 <div class="options">
@@ -11,11 +11,22 @@
     {label}
   </p>
   <div class="grid-check">
+    <p>
+    {$panchayatSelection}
+
+    </p>
     {#each array as arrayItem}
-      <label>
-        <input type="checkbox" value={arrayItem.code} bind:group={selection} on:change/>
-        {arrayItem.name}
-      </label>
+      {#if !$panchayatSelection.includes(arrayItem.code)}
+        <label>
+          <input
+            type="checkbox"
+            value={arrayItem.code}
+            bind:group={selection}  
+            on:change
+          />
+          {arrayItem.name}
+        </label>
+      {/if}
     {/each}
   </div>
 </div>

@@ -16,9 +16,10 @@
     position: absolute;
     top: 1em;
     right: 1em;
-    background-color: #d6e7ea;
+    background-color: #ffffff;
     padding: 0.5em;
     border-radius: 4px;
     color: black;
+    border: 1px solid black;
   }
 </style>

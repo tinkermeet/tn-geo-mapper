@@ -1,8 +1,12 @@
 <script>
   import Map from "./lib/Map.svelte";
   import Select from "./lib/Select.svelte";
-  import Checkbox from "./lib/Checkbox.svelte";
-  import { selectedFeatures, selectedIds, union } from "./lib/stores";
+  import {
+    selectedFeatures,
+    selectedIds,
+    union,
+    panchayatSelection,
+  } from "./lib/stores";
   import Modal from "./lib/Modal.svelte";
   import Toast from "./lib/Toast.svelte";
 
@@ -49,7 +53,7 @@
 
   let districtSelection = 0;
   let blockSelection = 0;
-  let panchayatSelection = [];
+  let panchayatSelectionLocal = [];
 
   function querySelectedDistrict(selectedDistrict) {
     blockSelection = 0;
@@ -72,6 +76,9 @@
     );
   }
   let showModal = false;
+  let foo;
+
+  $: $panchayatSelection = [...panchayatSelectionLocal];
 </script>
 
 {#if showModal == true}
@@ -82,7 +89,7 @@
 {/if}
 <main>
   <div class="d-grid">
-    <Map bind:this={map} {options} />
+    <Map bind:this={map} {options} bind:foo />
 
     <div>
       <div class="options">
@@ -93,7 +100,7 @@
             $union = [];
             districtSelection = 0;
             blockSelection = 0;
-            panchayatSelection = [];
+            panchayatSelection.set([]);
             map.removeAllLayers();
           }}
         >
@@ -107,6 +114,7 @@
         bind:selection={districtSelection}
         array={districts}
         label="Districts"
+        type="select"
         on:change={() => querySelectedDistrict(districtSelection)}
       />
       {#if districtSelection}
@@ -114,16 +122,18 @@
           bind:selection={blockSelection}
           array={filteredBlocks}
           label="Blocks"
+          type="select"
           on:change={() => querySelectedBlock(blockSelection)}
         />
       {/if}
       {#if blockSelection}
-        <Checkbox
-          bind:selection={panchayatSelection}
+        <Select
+          type="checkbox"
+          bind:selection={panchayatSelectionLocal}
           array={filteredPanchayats}
           label="Panchayats"
           on:change={map.getGeoJson({
-            value: panchayatSelection[panchayatSelection.length - 1],
+            value: panchayatSelectionLocal[panchayatSelectionLocal.length - 1],
             tablename: "bp.panchayat",
             condition: "gpcode",
             type: "panchayat",
@@ -133,9 +143,9 @@
 
       <div class="options">
         {#if blockSelection}
-          {#if panchayatSelection.length > 0}
+          {#if panchayatSelectionLocal.length > 0}
             <button
-              disabled={panchayatSelection.length == 0}
+              disabled={panchayatSelectionLocal.length == 0}
               on:click={() => map.unitePolygons($selectedFeatures)}
               >Combine
             </button>
