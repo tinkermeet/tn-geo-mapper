@@ -62,7 +62,6 @@
     });
   }
   function querySelectedBlock(selectedBlock) {
-    console.log({ selectedBlock });
     let items = (filteredPanchayats = panchayats.filter((e) => {
       return e.bpcode == selectedBlock;
     }));

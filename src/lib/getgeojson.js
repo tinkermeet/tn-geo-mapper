@@ -1,5 +1,4 @@
 export default function getGeoJson(params) {
-  // console.log({ params });
   let { value, tablename, condition, type } = params;
   let query = `
     query district($stcode: Int,$value: Int, $condition: String,$tablename: String){  geomvaluesbp(stcode:$stcode,conditionvalue:$value,tablename:$tablename,condition:$condition){geojson,centroid}}`;
