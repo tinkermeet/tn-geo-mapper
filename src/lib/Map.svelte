@@ -27,13 +27,11 @@
 
   that.getLayerMeta = function () {
     $selectedFeatures.forEach((feature) => {
-      console.log({ feature });
     });
   };
 
   function removePolygons(layerid) {
     map.eachLayer(function (layer) {
-      console.log({ layer });
       if (layer._leaflet_id == layerid && layer["isSelected"]) {
         map.removeLayer(layer);
       }
@@ -58,17 +56,14 @@
 
   function onEachFeature(feature, layer) {
     layer.on("click", (e) => {
-      console.log(e.target._leaflet_id);
 
       layer.isSelected = true;
       layer.setStyle({ fillColor: "yellow", opacity: 1, width: 3 });
 
       if ($selectedIds.includes(e.target._leaflet_id)) {
-        console.log({ selectedIds: $selectedIds });
         $selectedIds = [...$selectedIds.slice(0, selectedIds.length - 1)];
         layer.setStyle({ fillColor: "green", opacity: 1, width: 3 });
       } else {
-        console.log({ feature });
         $selectedIds = [...$selectedIds, e.target._leaflet_id];
 
         $selectedFeatures = [
@@ -78,7 +73,6 @@
       }
     });
     layer.on("add", (e) => {
-      console.log(e);
       $selectedIds = [...$selectedIds, e.target._leaflet_id];
       $selectedFeatures = [
         ...$selectedFeatures,
@@ -101,7 +95,6 @@
   // polygon methods
 
   function getPolygonType(geometry) {
-    console.log({ geometry });
     return geometry.type == "Polygon"
       ? turf.polygon(geometry.coordinates)
       : turf.multiPolygon(geometry.coordinates);
@@ -110,19 +103,16 @@
 
   that.unitePolygons = function (polygons) {
     isCombined = false;
-    console.log(polygons);
     let result = polygons.map((a) => {
       isCombined = true;
       return getPolygonType(a);
     });
 
-    console.log({ result });
     $union = result[0];
 
     for (let i = 1; i < result.length; i++) {
       $union = turf.union(result[i], $union);
     }
-    console.log({ union: $union });
     L.geoJSON($union, {
       style: { fillColor: "red" },
       onEachFeature,
@@ -153,7 +143,6 @@
             document
               .querySelector(".delete-btn")
               .addEventListener("click", (e) => {
-                console.log({ origin });
                 removePolygons(origin);
               });
           });
@@ -170,7 +159,6 @@
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
   that.getGeoJson = function (params) {
-    console.log({ params });
     let { value, tablename, condition, type } = params;
     let query = `
     query district($stcode: Int,$value: Int, $condition: String,$tablename: String){  geomvaluesbp(stcode:$stcode,conditionvalue:$value,tablename:$tablename,condition:$condition){geojson,centroid}}`;

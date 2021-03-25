@@ -4,8 +4,6 @@
   export let selection = 0;
   export let type = "select";
   import { panchayatSelection } from "./stores";
-
-  $: console.log($panchayatSelection);
 </script>
 
 <div class="options">

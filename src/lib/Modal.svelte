@@ -6,8 +6,6 @@
   function handleKeydown(event) {
     event.preventDefault();
     keyCode = event.keyCode;
-
-    console.log(keyCode);
     if (keyCode === 27) {
       shown = false;
     }
